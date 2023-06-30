@@ -6,18 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Microsoft – Cloud, Computers, Apps &amp; Gaming</title>
     <link rel="stylesheet" href="../dist/output.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
+
     <section class="md:bg-white md:h-14">
-        <nav class="md:container items-center md:mx-auto justify-between flex md:p-4">
+        <nav class="md:container px-2 items-center md:mx-auto justify-between flex md:p-4">
             <div class="flex space-x-3 items-center justify-center md:order-2">
                 <div class="hamburger cursor-pointer md:hidden">
                     <div class="line h-0.5 w-6 my-2 bg-black"></div>
                     <div class="line h-0.5 w-6 my-2 bg-black"></div>
                     <div class="line h-0.5 w-6 my-2 bg-black"></div>
                 </div>
-                <div class="md:font-light text-sm">searchIcon</div>
+                <div class="md:font-light text-sm"><i class="fas fa-search"></i></div>
             </div>
 
             <div class="flex items-center justify-center md:order-1">
@@ -34,34 +38,300 @@
                     <div>Small Business</div>
                     <div>Supports</div>
                 </div>
-
             </div>
 
-            <div class="flex md:order-3 items-center justify-center md:font-light text-sm">
-                <div>cartIcon</div>
-                <div>Account</div>
+            <div class="flex md:order-3 items-center md:gap-4 justify-center md:font-light text-sm gap-2">
+                <div><i class="fas fa-cart-shopping"></i></div>
+                <div><i class="fas fa-user"></i></div>
             </div>
         </nav>
     </section>
-    <hr class="md:hidden">
+    <hr class="md:hidden" />
     <!-- end of nav-section -->
-
 
     <section class="md:relative hover:cursor-pointer">
         <div class="flex flex-col-reverse md:flex-row">
-            <div class="md:absolute md:top-[12rem] bgwhite p-6 md:w-1/3 md:right-48 md:z-10">
+            <div class="md:absolute md:top-[12rem] p-6 md:w-1/3 md:right-48 md:z-10">
                 <h1 class="text-2xl font-medium mx-5 pb-4">Surface Laptop 5</h1>
-                <p class="mx-5 pb-4 text-base font-light">Save big on blazing-fast speed and sophisticated style.
-                    Plus, add a free Surface Dock 2 ($259.99 value) at checkout to transform your Surface into a
-                    powerful desktop PC. Offer ends 7/2.</p>
-                <button class="mx-5 bg-blue-700 w-fit text-white px-3 py-2 rounded-sm font-medium">Shop Surface Laptop
-                    5</button>
+                <p class="mx-5 pb-4 text-base font-light">
+                    Save big on blazing-fast speed and sophisticated style. Plus, add a
+                    free Surface Dock 2 ($259.99 value) at checkout to transform your
+                    Surface into a powerful desktop PC. Offer ends 7/2.
+                </p>
+                <button class="mx-5 bg-blue-700 w-fit text-white px-3 py-2 rounded-sm font-medium">
+                    Shop Surface Laptop 5
+                </button>
             </div>
             <div class="md:relative">
-                <img src="../img/lap.jpg" alt="">
+                <img src="../img/lap.jpg" alt="" />
             </div>
         </div>
     </section>
+    <!-- end of text-over-img -->
+
+    <section>
+        <div
+            class="md:container space-y-8 md:flex md:flex-row md:items-center md:justify-center md:space-x-20 md:mx-auto">
+            <div></div>
+            <div class="flex flex-col justify-center items-center">
+                <img src="../img/shopS.webp" alt="" />
+                <p class="text-blue-400 underline cursor-pointer">
+                    Shop Surface devices
+                </p>
+            </div>
+
+            <div class="flex flex-col items-center justify-center">
+                <img src="../img/choose.webp" alt="" />
+                <p class="text-blue-400 underline cursor-pointer">
+                    Choose your Microsoft 365
+                </p>
+            </div>
+
+            <div class="flex flex-col items-center justify-center">
+                <img src="../img/xbox.webp" alt="" />
+                <p class="text-blue-400 underline cursor-pointer">
+                    Buy Xbox games and consoles
+                </p>
+            </div>
+
+            <div class="flex flex-col items-center justify-center">
+                <img src="../img/windows.webp" alt="" />
+                <p class="text-blue-400 underline cursor-pointer">Get Windows 11</p>
+            </div>
+
+            <div class="flex flex-col items-center justify-center">
+                <img src="../img/access.webp" alt="" />
+                <p class="text-blue-400 underline cursor-pointer">
+                    Shop for accessories
+                </p>
+            </div>
+
+            <div class="flex flex-col items-center justify-center">
+                <img src="../img/shopBusi.webp" alt="" />
+                <p class="text-blue-400 underline cursor-pointer">Shop Business</p>
+            </div>
+        </div>
+    </section>
+    <!-- end of services -->
+
+    <section>
+        <div class="md:container md:mx-auto md:grid md:grid-cols-4 py-6 gap-10">
+            <div class="md:container">
+                <div class="flex flex-col px-2 py-3 cursor-pointer">
+                    <img src="../img/9pro.avif" alt="" />
+                    <h1 class="text-xl font-bold py-2">Surface Pro 9</h1>
+                    <p>
+                        Tablet versatility and laptop power — all in one ultra-portable
+                        device.
+                    </p>
+                </div>
+            </div>
+            <div class="md:container">
+                <div class="flex flex-col px-2 py-3 cursor-pointer">
+                    <img src="../img/upto.webp" alt="" />
+                    <h1 class="text-xl font-bold py-2">
+                        Up to $600 off select Surface Laptop Studio X
+                    </h1>
+                    <p>
+                        Flex your creative muscle with a touchscreen device that
+                        seamlessly transitions from laptop to portable creative canvas.
+                        Offer ends 7/2.
+                    </p>
+                </div>
+            </div>
+
+            <div class="md:container">
+                <div class="flex flex-col px-2 py-3 cursor-pointer">
+                    <img src="../img/seriesX.webp" alt="" />
+                    <h1 class="text-xl font-bold py-2">Xbox Series X</h1>
+                    <p>The fastest, most powerful Xbox ever.</p>
+                </div>
+            </div>
+
+            <div class="md:container">
+                <div class="flex flex-col px-2 py-3 cursor-pointer">
+                    <img src="../img/gamepass.avif" alt="" />
+                    <h1 class="text-xl font-bold py-2">Xbox Game Pass Ultimate</h1>
+                    <p>
+                        Xbox Live Gold and hundreds of high-quality console and PC games.
+                        Play together with friends and discover your next favorite game.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of flex-items -->
+
+    <section class="md:container md:mx-auto md:relative hover:cursor-pointer py-6">
+        <div class="flex flex-col-reverse md:flex-row">
+            <div class="md:absolute md:top-[12rem] p-6 md:w-1/3 md:left-48 md:z-10">
+                <h1 class="text-2xl font-medium mx-5 pb-4">Power your dreams</h1>
+                <p class="mx-5 pb-4 text-base font-light">
+                    Introducing Xbox Series S in Carbon Black, now with a 1 TB SSD.
+                    Experience next-gen speed and performance.
+                </p>
+                <button class="mx-5 bg-blue-700 w-fit text-white px-3 py-2 rounded-sm font-medium" ">Pre-order now</button>
+            </div>
+            <div class=" md:relative">
+                    <img src=" ../img/powerOf.avif" alt="" />
+            </div>
+        </div>
+    </section>
+    <!-- end of anoter text-over-img -->
+
+    <section>
+        <h1 class="text-3xl font-bold md:container px-2 md:mx-auto pt-10">For business</h1>
+        <div class="md:container md:mx-auto md:grid md:grid-cols-4 pb-6 gap-10">
+            <div class="md:container">
+                <div class="flex flex-col px-2 py-3 cursor-pointer">
+                    <img src="../img/save.webp" alt="" />
+                    <h1 class="text-xl font-bold py-2">Save up to $288 on Surface Pro 9 for Business Bundle</h1>
+                    <p>
+                        Get the tablet versatility and laptop power you need when you bundle Surface Pro 9 for Business
+                        with a Surface Pro Signature Keyboard for Business.
+                    </p>
+                </div>
+            </div>
+            <div class="md:container">
+                <div class="flex flex-col px-2 py-3 cursor-pointer">
+                    <img src="../img/try.webp" alt="" />
+                    <h1 class="text-xl font-bold py-2">
+                        Try Microsoft 365 for free
+                    </h1>
+                    <p>
+                        Get Microsoft Teams, secure cloud storage, and premium apps across devices with a free one-month
+                        Microsoft 365 Business Standard trial.
+                    </p>
+                </div>
+            </div>
+
+            <div class="md:container">
+                <div class="flex flex-col px-2 py-3 cursor-pointer">
+                    <img src="../img/join.jpeg" alt="" />
+                    <h1 class="text-xl font-bold py-2">Join the era of AI</h1>
+                    <p>Create, communicate, and code with the latest Microsoft AI solutions.</p>
+                </div>
+            </div>
+
+            <div class="md:container">
+                <div class="flex flex-col px-2 py-3 cursor-pointer">
+                    <img src="../img/welc.webp" alt="" />
+                    <h1 class="text-xl font-bold py-2"> Welcome to your Windows 365 Cloud PC</h1>
+                    <p>
+                        Securely stream your Windows experience from the Microsoft cloud to any device.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of another flex-items -->
+
+    <section class="md:container md:mx-auto md:relative hover:cursor-pointer py-6">
+        <div class="flex flex-col-reverse md:flex-row ">
+            <div class="md:absolute md:top-[12rem] p-6 md:w-1/3 md:right-48 md:z-10 md:bg-white">
+                <h1 class="text-2xl font-medium mx-5 pb-4">Harnessing AI breakthroughs for humanity</h1>
+                <p class="mx-5 pb-4 text-base font-light">
+                    Experts weigh the transformative nature of GPT-4, reflecting on potential safeguards and exploring
+                    future uses in thought-provoking essays.
+                </p>
+                <button class="mx-5 bg-blue-700 w-fit text-white px-3 py-2 rounded-sm font-medium" ">Read the essays</button>
+            </div>
+            <div class=" md:relative">
+                    <img src=" ../img/harnessing.avif" alt="" />
+            </div>
+        </div>
+    </section>
+    <!-- end of another anoter text-over-img -->
+
+    <section>
+        <div class="md:container md:mx-auto px-2 flex gap-4 py-6">
+            <div>
+                <h1>Follow Microsoft</h1>
+            </div>
+            <div class="space-x-4">
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- end of contact section -->
+
+    <section>
+        <div class="md:container md:mx-auto px-2 text-right  pb-6">
+            <button class="text-white text-lg bg-slate-400 px-4 rounded-sm"><i class="fas fa-arrow-up "></i> Back to
+                top</button>
+        </div>
+    </section>
+    <!-- end of btn-back-to-top -->
+
+    <section class="bg-slate-100 ">
+        <div class="md:container md:mx-auto md:grid md:grid-cols-6 p-6">
+            <div class="md:flex md:flex-col space-y-2 text-sm font-thin">
+                <h1 class="text-xl font-light">What's new</h1>
+                <a href="">Surface Pro 9</a>
+                <a href="">Surface Laptop 5</a>
+                <a href="">Surface Studio 2+</a>
+                <a href="">Surface Laptop Go 2</a>
+                <a href="">Surface Laptop Studio</a>
+                <a href="">Surface Go 3</a>
+                <a href="">Microsoft 365</a>
+            </div>
+            <div class="md:flex md:flex-col space-y-2 text-sm font-thin">
+                <h1 class="text-xl font-light">Microsoft Store
+                </h1>
+                <a href="">Surface Pro 9</a>
+                <a href="">Surface Laptop 5</a>
+                <a href="">Surface Studio 2+</a>
+                <a href="">Surface Laptop Go 2</a>
+                <a href="">Surface Laptop Studio</a>
+                <a href="">Surface Go 3</a>
+                <a href="">Microsoft 365</a>
+            </div>
+            <div class="md:flex md:flex-col space-y-2 text-sm font-thin">
+                <h1 class="text-xl font-light">Education</h1>
+                <a href="">Surface Pro 9</a>
+                <a href="">Surface Laptop 5</a>
+                <a href="">Surface Studio 2+</a>
+                <a href="">Surface Laptop Go 2</a>
+                <a href="">Surface Laptop Studio</a>
+                <a href="">Surface Go 3</a>
+                <a href="">Microsoft 365</a>
+            </div>
+            <div class="md:flex md:flex-col space-y-2 text-sm font-thin">
+                <h1 class="text-xl font-light">Business</h1>
+                <a href="">Surface Pro 9</a>
+                <a href="">Surface Laptop 5</a>
+                <a href="">Surface Studio 2+</a>
+                <a href="">Surface Laptop Go 2</a>
+                <a href="">Surface Laptop Studio</a>
+                <a href="">Surface Go 3</a>
+                <a href="">Microsoft 365</a>
+            </div>
+            <div class="md:flex md:flex-col space-y-2 text-sm font-thin">
+                <h1 class="text-xl font-light">Developer & IT</h1>
+                <a href="">Surface Pro 9</a>
+                <a href="">Surface Laptop 5</a>
+                <a href="">Surface Studio 2+</a>
+                <a href="">Surface Laptop Go 2</a>
+                <a href="">Surface Laptop Studio</a>
+                <a href="">Surface Go 3</a>
+                <a href="">Microsoft 365</a>
+            </div>
+            <div class="md:flex md:flex-col space-y-2 text-sm font-thin">
+                <h1 class="text-xl font-light">Company</h1>
+                <a href="">Surface Pro 9</a>
+                <a href="">Surface Laptop 5</a>
+                <a href="">Surface Studio 2+</a>
+                <a href="">Surface Laptop Go 2</a>
+                <a href="">Surface Laptop Studio</a>
+                <a href="">Surface Go 3</a>
+                <a href="">Microsoft 365</a>
+            </div>
+        </div>
+    </section>
+    <!-- end of footer -->
+
 
 </body>
 
